@@ -1,0 +1,39 @@
+a{
+    padding: 0.5%;
+    text-decoration: none;
+    color: white;
+}
+body{
+    background-color: black;
+}
+div{
+    background-color: orange;
+    text-align: center;
+    margin-top:4%;
+}
+hr{
+    background-color : orange;
+}
+ .dropdown {
+    position: absolute;
+    display: inline-block;
+
+}
+.dropdown-child {
+    display: none;
+    background-color: orange;
+    min-width: 200px;
+    position: absolute;
+}
+.dropdown-child a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+} 
+
+
+

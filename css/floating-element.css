@@ -1,0 +1,9 @@
+img.a{
+    float: right;
+}
+img.b{
+    float:left;
+}
+img.c{
+    float:none;
+}

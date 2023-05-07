@@ -1,0 +1,98 @@
+body
+{
+    background-color:#bc6c09 ;
+}
+header{
+	margin-top: 45px;
+}
+h1{
+  border: double;
+    display:inline;
+    Padding:5px;
+    Font-size:46px;
+    Margin-top: 10px;
+    Color: #00d5f2;
+font-style: italic;
+}
+nav{
+    Display : block and inline;
+    Float : right;
+    Padding-Top : 55px;
+}
+a{
+text-decoration:none;
+	Padding : 35px;
+	Border: 3px double orange;
+	Margin: 25px;
+	Color:Yellow;
+	background: none;
+	border-radius:15%;
+	text-transform: uppercase;
+}
+img{
+    Width : 100%;
+	Height: 100%;
+}
+p{
+	Color : black;
+	Font-size : 18px;
+}
+article
+{ 	
+	Height: 900px;
+	Padding: 20px;
+	Margin-top : 100px;
+	Background-color: #e0ac1d;
+	Border-radius: 15px;
+	text-align: justify;
+	text-justify:inter word;
+}
+div.main{
+    Border : double 1px greenyellow;
+	border-radius: 15px;
+	Padding:15px;
+	Margin:10px;
+}
+div.and{
+    Border : double 1px greenyellow;
+	border-radius: 15px;
+	Padding:15px;
+	Margin:10px;
+}
+figure{
+	Border: 3px solid #142830;
+	Float: right;
+	Height: 320px;
+	Width: 530px;
+	Margin-left: 15px;
+}
+button{
+	Border: 2px dashed;
+	Border-Color: #685d50;
+	Background: #bcbc09;
+	Color :yellow;
+	Width: 120px;
+	Height: 80px;
+	margin-left: 350px;
+	margin-top: 25px;
+     text-transform: uppercase;
+}
+a:hover{
+	Color: red;
+	Background: #e8f3f4;
+    font-style: italic;
+}
+button:hover{
+	Color: red;
+	Background: #e8f3f4;
+    font-style: italic;
+}
+footer
+{
+	Border: dotted greenyellow;
+	border-radius: 10px;
+	Color: yellow;
+	text-align: center;
+	Margin: 10px;
+	text-transform: uppercase;
+}

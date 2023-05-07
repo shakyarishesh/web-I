@@ -1,0 +1,54 @@
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+
+}
+.container>*{
+    padding: 10px;
+    margin: 1px;
+    flex: 1 100%;
+    border-radius: 10px;
+}
+.header{
+    background: orangered;
+    height: 120px;
+}
+.footer{
+    background: lightgreen;
+    height: 80px;
+}
+.article{
+    text-align: left;
+    background-color: rgb(19, 192, 244);
+    height:300px;
+    font-size:24px;
+}
+.aside1{
+   background: rgb(253, 253, 121);
+}
+.aside2{
+    background: rgb(236, 114, 179);
+}
+@media all and (min-width:800px){
+   .article{
+    flex: 3 0;
+   } 
+   .aside1{
+    order: 1;
+   }
+   .aside2{
+    order: 3;
+   }
+   .article{
+    order:2;
+   }
+   .footer{
+    order:4;
+   }}
+    @media all and (min-width:600px) {
+    .aside{
+        flex: 1 0;
+       } 
+       
+}

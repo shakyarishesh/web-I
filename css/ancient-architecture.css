@@ -1,0 +1,35 @@
+body{
+    text-align: center;
+    font-family: Roboto, sans-serif; 'Indie Flower', cursive; EucrosiaUPC sans-serif;
+    background-color:#e2d7aa;
+}
+div{
+    font-size: 28px;
+    Font-Weight: Bold;
+}
+h1{
+    font-size: 60px;
+    text-align:center;
+    margin-top: 65px;
+    font-family: ‘Indie Flower’, cursive;
+
+}
+table{
+    Padding: 10px;
+    Margin-top: 10px;
+}
+.c1{
+    Width: 200px;
+    Height: 240px;
+	margin-top: 10px;
+}
+button{
+    color:white;
+    background-color: #aa8a0b;
+    border: none;
+}
+p::first-letter{
+	font-family: EucrosiaUPC, sans-serif;
+	font-size: 40px;
+     
+}

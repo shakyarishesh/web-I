@@ -1,0 +1,15 @@
+
+body{
+    background-color: rgb(15, 14, 14);
+}
+table{
+    position: static;
+}
+th{
+    color:white;
+    text-align: left;
+}
+td{
+    
+    color: grey;
+}
