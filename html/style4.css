@@ -1,0 +1,8 @@
+body{
+    background-image: url('/galaxy.jfif');
+}
+.info{
+    text-align:center;
+    font-size:xx-large;
+    color: red;
+}
